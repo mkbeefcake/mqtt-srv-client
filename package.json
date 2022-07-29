@@ -1,0 +1,22 @@
+{
+  "name": "mqtt-srv-client",
+  "version": "1.0.0",
+  "description": "MQTT Server and Client applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mkblockchaindev/mqtt-srv-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkblockchaindev/mqtt-srv-client/issues"
+  },
+  "homepage": "https://github.com/mkblockchaindev/mqtt-srv-client#readme",
+  "dependencies": {
+    "mqtt-server": "^0.1.0"
+  }
+}
