@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mkblockchaindev/mqtt-srv-client#readme",
   "dependencies": {
+    "mqtt": "^4.3.7",
     "mqtt-server": "^0.1.0"
   }
 }
