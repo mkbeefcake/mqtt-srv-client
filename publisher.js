@@ -1,10 +1,11 @@
 const mqtt = require('mqtt');
 
-const host = '161.97.109.172'; // 'broker.emqx.io';
-const port = '1883';
+// const host = '161.97.109.172'; 
+const host = 'broker.emqx.io';
+const port = '8883';
 const publisherId = `mqtt_publisher`;
 
-const connectUrl = `mqtt://${host}:${port}`;
+const connectUrl = `mqtts://${host}:${port}`;
 const client = mqtt.connect(connectUrl, {
     publisherId/*, 
     clean: true,
